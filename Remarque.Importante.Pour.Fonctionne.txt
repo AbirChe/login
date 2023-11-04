@@ -1,0 +1,34 @@
+  
+        Le premier fichier que vous devez ouvrir est:        './login.php'
+
+
+
+
+
+
+
+
+  Remarque importante pour que ce programme fonction :
+
+
+  changer la taille de la colonne 'password' à varchar(60)
+
+
+  `password` varchar(30) NOT NULL,        --->        `password` varchar(60) NOT NULL,
+
+
+  parce que j'utilise le fonction 'password_hash()' , et ce fonction a bosoin de 60 caractères au minimum.
+
+
+
+  Le hachage finit par être de 60 caractères. Il doit donc comporter au moins 60 caractères.
+  Il serait préférable d'allouer 255 pour les futures versions. Vous pouvez aussi utiliser varchar (255).
+
+
+
+
+
+
+
+
+
